@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "42c073d8-33ae-4097-a0f8-9fd4335ff8b6",
+		"name": "ApplicationKeys",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32629573"
+	},
+	"item": [
+		{
+			"name": "GetApplicationKeys",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/ApplicationKeys"
+			},
+			"response": []
+		},
+		{
+			"name": "GetApplicationKeysById",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/ApplicationKeys({{id}})"
+			},
+			"response": []
+		},
+		{
+			"name": "GetApplicationKeysList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "{{username}}",
+						"password": "{{password}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://{{domain}}/ds/campusnexus/ApplicationKeys/CampusNexus.GetApplicationKeysList()"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "username",
+			"value": "$username",
+			"type": "string"
+		},
+		{
+			"key": "password",
+			"value": "$password",
+			"type": "string"
+		},
+		{
+			"key": "domain",
+			"value": "sisclientweb-700031.campusnexus.cloud",
+			"type": "string"
+		},
+		{
+			"key": "id",
+			"value": "8",
+			"type": "string"
+		}
+	]
+}
