@@ -1,8 +1,8 @@
 # Project Title 
-Student- BankAccount API collection 
+Student- Application Keys API collection 
 
 # Description
-This API collection used to fetch the bank details based on Campus ID and AccountId ID, etc. 
+This API collection used to fetch all the application keys and based on application ID . 
 
 # Prerequisites
 Postman - latest version
@@ -12,16 +12,11 @@ Download and install latest versoin of postman tool.
 
 # Usage 
 Import the API collection as file or URL. 
-MOdify the variables as per the requirement. 
+Modify the variables as per the requirement. 
 
 # Variables used in this API collections
-$userName   - Username to access the API 
-$password   - Password to access the API 
-_domainName - Domain name of the Student
-_campusId  -  Campus associated with the bank account
-_bankAccountId  - Bank account associatied with campus
-_Id - Bank Account Id
-_active - active status
-_inActive - In active status
-_campusIds - List of campus ids
+_userName   - Username to access the API 
+_password   - Password to access the API
+_Id - Application Key Id 
+
 

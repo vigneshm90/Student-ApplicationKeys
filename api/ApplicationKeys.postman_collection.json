@@ -78,12 +78,12 @@
 	"variable": [
 		{
 			"key": "username",
-			"value": "$username",
+			"value": "_username",
 			"type": "string"
 		},
 		{
 			"key": "password",
-			"value": "$password",
+			"value": "_password",
 			"type": "string"
 		},
 		{
@@ -93,7 +93,7 @@
 		},
 		{
 			"key": "id",
-			"value": "8",
+			"value": "_id",
 			"type": "string"
 		}
 	]
